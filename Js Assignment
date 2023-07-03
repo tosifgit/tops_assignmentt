@@ -1,0 +1,140 @@
+1.What is JavaScript?
+•Java Script is one of the most famous programing computer language.
+Basically javascript used to website development
+both of sides Frontend and Backend development. And many more uses.
+
+2.What is the use of isNaN function?
+Ans. NaN is a short form of Nan.
+Not a Number is full form of Nan.
+
+3.What is negative Infinity?
+Ans. JavaScript displays the NEGATIVE_INFINITY value as -Infinity. This value behaves mathematically like infinity; for example, anything multiplied by infinity is infinity, and anything divided by infinity is zero. In ECMAScript v1 and later, you can also use -Infinity instead of Number.NEGATIVE_INFINITY.
+Example:
+Infinity, isFinite( )
+
+4.Which company developed JavaScript?
+Ans: JavaScript was made by Brendan Eich in 1995
+
+5.What are undeclared and undefined variables?
+Ans: Undeclared variable means it is not declared by us.
+Example: 
+console.log(a); 
+•And undefined variable means it is not defined by us.
+Example:
+let a;
+console.log(a);
+
+6.Write the code for adding new elements dynamically?
+Ans: Simply just write the code "document.createElementById('tagName')" and create new tags more.
+Example:
+document.createElementById('div)
+
+7. What is the difference between ViewState and SessionState?
+Ans. View state and Session state are two types of state management techniques that help developers share information between different UI elements and interfaces.
+
+8. What is === operator?
+Ans: This is Strict equality comparison operator (===)
+It is shown false if values is not match equal similarity.
+Example:
+var a = '15'
+var b = '15'
+console.log(a===b) //true
+
+9.How can the style/class of an element be changed?
+Ans. The style/class of an element be changed, we can use .classList and .style properties in JavaScript.
+Example:
+classChange
+var =element 
+document.getElmentById("myElemnt")
+element.classList.add("myClass")
+styleChange
+var element =
+document.getElmentById("myElemnt")
+element.style.color ="pink";
+Note: myelemnt and myclass is just id/class name
+
+10.How to read and write a file using JavaScript?
+Ans. Many functions uses of files in JavaScript like create file, remove file, change file, read file, write file...
+Example:
+const reader = new File reader ();
+
+11.What are all the looping structures in JavaScript?
+Ans. There are two looping structure in JavaScript 'For loop' and 'While loop'.
+Example:
+1.For loop
+for (let a=5;5>=0;a--){
+         console.log(a);
+}
+2.While loop
+let a=5
+while (a>0){
+         console.log(a);
+         a--;
+}
+12. How can you convert the string of any base to an integer in JavaScript?
+Ans. To convert the string of any base to an integer in JavaScript we can use parseInt();
+Example;
+let myString = "2003"
+let myInt = parseInt(myString);
+console.log(myInt);  //output: 2003
+
+13.What is the function of the delete operator?
+Ans. Delete function is use for delete value of variable. and code is here.
+Example:
+let example = { 
+    name: "Tofiq", 
+    lastName: "Ansari", 
+    number: 12345
+} 
+  
+console.log(delete example.lastName);
+console.log(example);
+
+14.What are all the types of Pop up boxes available in JavaScript?
+Ans. There are three types of pop-up boxes in JavaScript.
+i. Alert box, ii. Confirm box, iii. Prompt box.
+Example of Alert box:
+alert("this is alert!' )
+Example of Confirm box:
+Let data='some data'
+if (confirm("are you sure you delete this?"){
+          console.log(delete data)
+} else {
+         console.log(cancel data)
+}
+Example of prompt box:
+Let name= prompt('what is your name?)
+If (name !== null) {
+alert ("welcome,' +name '!'")
+
+15. What is the use of Void (0)?
+Ans. The use of Void(0) is refreshing page.
+Example:
+<a href="#" onclick="dosomthing(); return void(0);"> refresh</a>
+
+16.How can a page be forced to load another page in JavaScript?
+Ans. window.location.replace('newPage.html'); can a page be forced to load another page in JavaScript.
+Example:
+window.location.replace('newPage.html');
+
+17.What are the disadvantages of using innerHTML in JavaScript?
+Ans. There are many disadvantages of using innerHTML in JavaScript.
+i. Unsecured ii. Slow performance in processing.
+
+
+18.Create password field with show hide functionalities...
+Ans. Password field with show hide function is here;
+Example:
+<input type="password" name="password" id="password" value="" />
+    <button onclick="togglePasswordVisibility()">show/hide</button>
+
+    <script type="text/javascript" charset="utf-8">
+        function togglePasswordVisibility() {
+            var = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text"
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
